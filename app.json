@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MealsApp",
+    "name": "Khaana",
     "slug": "MealsApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ravi.khaana"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "91df16d7-ce4c-4d21-b7b9-aa6b4aba1751"
+      }
     }
   }
 }
